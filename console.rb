@@ -1,6 +1,6 @@
 require('pry')
-require_relative('models/albums.rb')
-require_relative('models/artists.rb')
+require_relative('models/album.rb')
+require_relative('models/artist.rb')
 
 
 
