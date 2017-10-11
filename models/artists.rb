@@ -1,6 +1,6 @@
 require('pg')
 
-class Artists
+class Artist
   attr_accessor :name
 
   def initialize(options)
@@ -8,7 +8,7 @@ class Artists
     @id = options['id'].to_i if options['id']
   end
 
-  
+
 
 
 end
